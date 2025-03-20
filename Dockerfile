@@ -1,11 +1,1 @@
-FROM python:3.10-slim
-
-WORKDIR /
-COPY requirements.txt /requirements.txt
-RUN pip install -r requirements.txt
-COPY rp_handler.py /
-
-COPY README /
-
-# Start the container
-CMD ["python3", "-u", "rp_handler.py"]
+RlJPTSBweXRob246My4xMC1zbGltCldPUktESVIgLwpDT1BZIHJlcXVpcmVtZW50cy50eHQgL3JlcXVpcmVtZW50cy50eHQKUlVOIHBpcCBpbnN0YWxsIC1yIHJlcXVpcmVtZW50cy50eHQKQ09QWSBycF9oYW5kbGVyLnB5IC8KQ09QWSBSRUFETUUgLwpSVU4gYXB0LWdldCB1cGRhdGUgJiYgYXB0LWdldCBpbnN0YWxsIC15IHB5dGhvbjMtcGlwICYmIGFwdC1nZXQgaW5zdGFsbCAteSBweXRob24zLWRldiAmJiBhcHQtZ2V0IGluc3RhbGwgLXkgcHl0aG9uMy1naXQKQ01EIFtcInB5dGhvbjNcIiwgXCItdVwiLCBcInJwX2hhbmRsZXIucHlcIl0K
