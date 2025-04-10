@@ -1,0 +1,11 @@
+{
+  "title": "Basic Worker Template",
+  "description": "A minimal serverless worker example that can be customized for various machine learning tasks like image generation, text generation, or speech-to-text conversion.",
+  "type": "serverless",
+  "category": "language",
+  "iconUrl": "https://dummyimage.com/100x100/4a90e2/fff&text=BW",
+  "config": {
+    "runsOn": "GPU",
+    "containerDiskInGb": 20
+  }
+}
