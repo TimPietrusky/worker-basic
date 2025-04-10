@@ -1,0 +1,11 @@
+{
+  "title": "Basic Worker Template",
+  "description": "A minimal serverless worker example that can be customized for any machine learning task. This template demonstrates how to build a simple RunPod serverless endpoint.",
+  "type": "serverless",
+  "category": "utility",
+  "iconUrl": "https://raw.githubusercontent.com/runpod/runpod-brand/main/logo/runpod-icon-square-dark.png",
+  "config": {
+    "runsOn": "GPU",
+    "containerDiskInGb": 20
+  }
+}
