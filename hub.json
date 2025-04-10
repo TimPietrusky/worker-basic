@@ -1,0 +1,12 @@
+{
+  "title": "Worker Basic",
+  "description": "A minimal serverless worker example that demonstrates how to build and deploy a basic RunPod endpoint. Perfect for learning and testing the RunPod serverless infrastructure.",
+  "type": "serverless",
+  "category": "development",
+  "iconUrl": "https://dummyimage.com/100x100/007bff/fff&text=WB",
+  "config": {
+    "runsOn": "GPU",
+    "containerDiskInGb": 20,
+    "env": []
+  }
+}
