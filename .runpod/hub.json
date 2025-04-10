@@ -1,0 +1,11 @@
+{
+  "title": "Basic Worker",
+  "description": "A basic RunPod worker template that demonstrates the fundamental structure and functionality of a RunPod worker",
+  "type": "serverless",
+  "category": "language",
+  "iconUrl": "https://dummyimage.com/100x100/007bff/fff&text=BW",
+  "config": {
+    "runsOn": "GPU",
+    "containerDiskInGb": 20
+  }
+}
