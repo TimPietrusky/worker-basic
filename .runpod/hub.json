@@ -1,0 +1,7 @@
+{
+  "title": "Basic Worker",
+  "description": "A basic worker template for RunPod that demonstrates how to create a serverless endpoint",
+  "type": "serverless",
+  "category": "language",
+  "iconUrl": "https://dummyimage.com/100x100/007bff/fff&text=BW"
+}
