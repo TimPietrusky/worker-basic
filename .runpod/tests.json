@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "Basic Test",
+      "timeout": 30000,
+      "input": {
+        "prompt": "John Doe",
+        "seconds": 15
+      }
+    }
+  ]
+}

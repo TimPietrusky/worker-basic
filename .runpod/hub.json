@@ -1,0 +1,7 @@
+{
+  "title": "Worker Basic",
+  "description": "A minimal serverless worker example that can be used as a starting point for machine learning tasks such as image generation, text generation, or speech-to-text conversion.",
+  "category": "language",
+  "iconUrl": "https://dummyimage.com/100x100/3498db/fff&text=WB",
+  "repository": "https://github.com/TimPietrusky/worker-basic"
+}
