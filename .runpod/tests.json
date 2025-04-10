@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Basic Test",
+      "description": "Tests the basic functionality of the worker with a prompt and sleep duration",
+      "input": {
+        "prompt": "John Doe",
+        "seconds": 15
+      },
+      "expectedOutput": "John Doe"
+    }
+  ]
+}

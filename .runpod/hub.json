@@ -1,0 +1,30 @@
+{
+  "name": "Worker Basic",
+  "description": "A minimal serverless worker example that can be used as a template for building RunPod serverless endpoints. Demonstrates a simple sleep function that can be replaced with any machine learning task.",
+  "categories": ["Utility", "Template"],
+  "icon": "https://raw.githubusercontent.com/runpod/runpod-icons/main/templates/runpod.svg",
+  "tags": ["template", "serverless", "basic", "example"],
+  "coverImage": "https://raw.githubusercontent.com/runpod/runpod-icons/main/templates/runpod.svg",
+  "author": {
+    "name": "Tim Pietrusky",
+    "email": ""
+  },
+  "endpoints": [
+    {
+      "name": "worker-basic",
+      "description": "Basic serverless worker template",
+      "icon": "https://raw.githubusercontent.com/runpod/runpod-icons/main/templates/runpod.svg",
+      "source": "https://github.com/TimPietrusky/worker-basic",
+      "handler": "handler.py",
+      "concurrency": 1,
+      "minVram": 0,
+      "maxVram": 24,
+      "maxBatch": 1,
+      "maxConcurrency": 1,
+      "maxWorkers": 1,
+      "runtimeScale": 1,
+      "gpuIds": ["NVIDIA GeForce RTX 3060", "NVIDIA GeForce RTX 3070", "NVIDIA GeForce RTX 3080", "NVIDIA GeForce RTX 3090", "NVIDIA GeForce RTX 4060", "NVIDIA GeForce RTX 4070", "NVIDIA GeForce RTX 4080", "NVIDIA GeForce RTX 4090", "NVIDIA RTX A4000", "NVIDIA RTX A4500", "NVIDIA RTX A5000", "NVIDIA RTX A6000", "NVIDIA L4", "NVIDIA L40", "NVIDIA A10", "NVIDIA A100", "NVIDIA A100 80GB PCIe", "NVIDIA H100 PCIe", "NVIDIA H100 80GB PCIe"],
+      "readme": "README.md"
+    }
+  ]
+}
