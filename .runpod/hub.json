@@ -1,11 +1,13 @@
 {
-  "title": "Worker Basic",
-  "description": "A minimal serverless worker example that can be used as a starting point for any machine learning task, such as image generation, text generation, or speech-to-text conversion.",
-  "type": "serverless",
-  "category": "language",
-  "iconUrl": "https://dummyimage.com/100x100/ff5733/fff&text=WB",
-  "config": {
-    "runsOn": "GPU",
-    "containerDiskInGb": 20
+  "version": 1,
+  "id": "worker-basic",
+  "name": "Basic Worker",
+  "description": "A basic worker template for RunPod",
+  "docker": {
+    "image": "runpod/worker-basic:latest",
+    "build": {
+      "context": ".",
+      "dockerfile": "Dockerfile"
+    }
   }
 }

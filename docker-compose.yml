@@ -1,0 +1,10 @@
+version: '3'
+services:
+  worker:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - RUNPOD_DEBUG=true
+      - RUNPOD_WEBHOOK_GET_JOBS=http://localhost:8000/get_jobs
+      - RUNPOD_WEBHOOK_POST_OUTPUT=http://localhost:8000/post_output
