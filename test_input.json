@@ -1,6 +1,5 @@
 {
-    "input": {
-        "prompt": "John Doe",
-        "seconds": 2
-    }
+  "input": {
+    "prompt": "Test prompt"
+  }
 }
